@@ -40,7 +40,7 @@ import { createStatelessTransport } from "stateless-viem-transport";
 const statelessTransport = createStatelessTransport({
   rpcUrl: "https://<PROVIDER_RPC_URL>",
   identities: ["https://<PROVIDER_IDENTITY>"],
-  proverUrl: "https://<PROVER_RPC_URL>",
+  proverUrl: "https://<PROVER_RPC_URL>", // enables light client mode
 });
 
 const statelessClient = createPublicClient({

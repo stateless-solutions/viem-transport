@@ -1,0 +1,25 @@
+{
+  "name": "stateless-viem-transport",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Stateless Transport for Viem",
+  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/sshpk": "^1.17.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@ethereumjs/trie": "^6.2.1",
+    "sshpk": "^1.18.0",
+    "tweetnacl": "^1.0.3"
+  }
+}

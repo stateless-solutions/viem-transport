@@ -30,7 +30,7 @@ console.log("Block Number:", await statelessClient.getBlockNumber());
 
 ## Light Clients
 
-To use Stateless' light client mode, you can add an additional `proverUrl` parameter to the `createStatelessTransport` function. This will enable the light client mode, which will verify the stateless proofs on the prover node.
+To use Stateless' light client mode, you can add an additional `proverUrl` parameter. This will enable the light client mode, which will verify the stateless proofs on the prover node.
 
 Read more about the light client mode in the [Stateless docs](https://app.stateless.solutions/documentation/light-client).
 

@@ -10,7 +10,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^22.5.0",
@@ -21,5 +22,8 @@
     "@ethereumjs/trie": "^6.2.1",
     "sshpk": "^1.18.0",
     "tweetnacl": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
